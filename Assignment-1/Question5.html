@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table and Form</title>
+    <style>
+        table {
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+        }
+
+        th, td {
+            border: 1px solid #ddd; 
+            padding: 10px; 
+            text-align: center; 
+        }
+
+        th {
+            background-color: #f2f2f2; 
+        }
+
+        .form-container {
+            margin-top: 20px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0; 
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+        }
+
+        input[type="submit"] {
+            background-color: #28a745; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            cursor: pointer; 
+            border-radius: 4px; 
+            transition: background-color 0.3s; 
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838; 
+        }
+    </style>
+</head>
+<body>
+
+<h1>Simple Table and Form</h1>
+
+<!-- Simple table -->
+<table>
+    <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+      <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+      </tr>
+      <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+      </tr>
+      <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Row 3, Cell 2</td>
+          <td>Row 3, Cell 3</td>
+      </tr>
+  </table>
+  
+  <!-- Basic form -->
+  <div class="form-container">
+      <form>
+          <input type="text" placeholder="Enter your name" required>
+          <input type="email" placeholder="Enter your email" required>
+          <input type="submit" value="Submit">
+      </form>
+  </div>
+  
+  </body>
+  </html>    
